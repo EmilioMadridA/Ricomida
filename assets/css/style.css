@@ -1,0 +1,150 @@
+/* Reseteo de margenes por defecto */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Centrar texto en Mobile */
+@media(max-width: 767px) {
+    .centered-mobile p {
+        text-align: center;
+    }
+}
+
+@media(max-width: 767px) {
+    header button {
+        margin-right: 0px;
+        width: 45%;
+    }
+}
+
+/* Margin img wn Mobile */
+@media(max-width: 767px) {
+    .margin-mobile-img {
+        margin-left: 10px;
+    }
+}
+
+/* Margin p wn Mobile */
+@media(max-width: 767px) {
+    .margin-mobile-x h3, p{
+        margin-left: 10px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    .centered-mobile #pizza-principal {
+        font-size: 35px;  
+    }
+}
+
+/* Desaparecer carrusel en Mobile */
+@media(max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+/* Margin bottom card Mobile */
+@media(max-width: 767px) {
+    .margin-mobile-bottom {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 767px) {
+    .size-mobile {
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 767px) {
+    .width-mobile {
+        width: 95%;
+    }
+}
+
+nav {
+    background-color: #373A3C;
+}
+
+nav .navbar-brand {
+    font-family: 'Lobster';
+    font-size: 40px;
+}
+
+ul .nav-item a {
+    font-family: 'Cabin';
+    font-size: 20px;
+}
+
+header {
+    margin: 0px 100px 0px 100px;
+}
+
+header #pizza-principal {
+    font-family: 'Cabin';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+header #pizza-sub {
+    font-family: 'Cabin';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.carousel .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    filter: invert(100%);
+}
+
+.carousel .carousel-indicators #carouselExampleIndicators {
+    bottom: 4rem;
+}
+
+#receipt {
+    font-family: 'Cabin';
+    font-weight: 400;
+}
+
+#newsletter {
+    height: 300px;
+    background-color: #DC3545;
+    color: #FFFFFF;
+    font-family: 'Cabin';
+}
+
+#newsletter h2 {
+    font-weight: bold;
+}
+
+#newsletter p {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#newsletter #logo-texto {
+    font-family: 'Lobster';
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #373A3C;
+}
+
+footer a {
+    font-family: 'Lobster';
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', sans-serif; */
